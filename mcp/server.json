@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "energy.maci/mcp",
+  "title": "Maci",
+  "description": "Read refrigeration units, service history, F-gas logs and alarms in Maci. Read only.",
+  "websiteUrl": "https://maci.energy/integrations/ai-assistants/",
+  "repository": {
+    "url": "https://github.com/Maci-Intelligence/developers",
+    "source": "github",
+    "subfolder": "mcp"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.maci.energy/mcp"
+    }
+  ]
+}
